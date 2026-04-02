@@ -1,84 +1,88 @@
 AlphaPulse - Financial Risk & Volatility Analysis
 
-📌 Project Overview
+ Project Overview
 AlphaPulse is a financial analytics project that focuses on analyzing stock market data, measuring risk, and predicting future price behavior using statistical and simulation techniques.
 
 ---
 
-# 🟢 Week 1: Data Collection & Cleaning
+##  **Week 1: Data Acquisition & Cleaning**
 
-Objective
-To collect and preprocess stock market data for analysis.
-
-Tasks Performed
-- Selected stocks: AAPL, MSFT, GOOGL, TSLA, AMZN
-- Fetched historical data using yfinance
-- Applied auto-adjustment for accurate pricing
-- Extracted closing prices
-- Handled missing values using dropna()
-- Saved clean dataset as CSV
-
-Output
-- Clean and structured dataset ready for analysis
+###  Objective
+To collect historical stock data and preprocess it for analysis.
 
 ---
 
-🟡 Week 2: Quantitative Analysis
-
-Objective
-To analyze stock behavior, measure risk, and simulate future price movements.
-
-Tasks Performed
-
-1. Daily Returns
-- Calculated percentage returns using pct_change()
-- Cleaned data using dropna()
-
-2. Correlation Analysis
-- Created heatmap using seaborn
-- Identified relationships between stocks
-- Used for diversification insights
-
-3. Volatility Analysis
-- Calculated 30-day rolling standard deviation
-- Visualized risk levels across stocks
-
-4. Monte Carlo Simulation
-- Simulated 1000 possible future price paths
-- Predicted stock behavior over 1 year
-- Used NumPy for random sampling
-
-5. Statistical Validation
-- Generated histogram of final prices
-- Calculated skewness and kurtosis
-- Analyzed distribution and risk patterns
+###  Tasks Performed
+- Selected a diversified portfolio of stocks (AAPL, MSFT, GOOGL, AMZN, TSLA)
+- Fetched historical stock data using Python
+- Handled missing values and ensured data consistency
+- Adjusted stock prices for splits and dividends
+- Cleaned and structured the dataset for further analysis
 
 ---
 
-🛠 Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- yfinance
+###  Output
+- Cleaned dataset (`clean_stock_data.csv`) ready for analysis
+- Structured time-series data for multiple stocks
+
 
 ---
 
-📊 Key Insights
-- Highly correlated stocks increase portfolio risk
-- Volatility helps measure uncertainty
-- Monte Carlo simulation provides probabilistic forecasts
-- Statistical metrics validate model behavior
+##  **Week 2: Quantitative Analysis**
+
+###  Objective
+To analyze stock performance using statistical and financial metrics.
 
 ---
 
-🚀 Future Work
-- Build interactive dashboard (Power BI / Tableau)
-- Add portfolio optimization
-- Enhance prediction models
+###  Tasks Performed
+- Calculated Daily Returns using price data
+- Computed Volatility to measure risk
+- Implemented NumPy-based calculations for efficiency
+- Performed Monte Carlo Simulation (10,000 runs) to predict future portfolio value
+- Analyzed distribution of returns (risk & variability)
 
 ---
 
-# 📌 Conclusion
+###  Output
+- Returns dataset (`returns.csv`)
+- Volatility dataset (`volatility.csv`)
+- Simulation-based insights for future stock behavior
+
+
+---
+
+##  **Week 3: Dashboard & Visual Storytelling**
+
+###  Objective
+To build an interactive Power BI dashboard for analyzing stock trends and enabling scenario-based insights.
+
+---
+
+###  Tasks Performed
+- Imported cleaned stock data, returns, and volatility into Power BI
+- Created visualizations:
+  - Stock Price Trends 
+  - Daily Returns 
+  - Volatility 
+- Designed a structured and user-friendly dashboard layout
+- Added Date slicer for dynamic filtering
+- Built relationships between datasets for consistent interaction
+- Implemented What-if parameter (`Market Change`) to simulate market scenarios
+- Created dynamic measure (`Adjusted_AAPL`) for scenario-based price changes
+
+---
+
+### Output
+- Interactive Power BI dashboard (`.pbix`)
+- Dynamic filtering and visualization
+- Scenario simulation using What-if analysis
+
+---
+
+### Key Insight
+The What-if analysis allows users to simulate market changes (e.g., ±10%) and instantly observe the impact on stock prices, enabling better decision-making and risk understanding.
+---
+
+Conclusion
 This project demonstrates end-to-end financial data analysis, risk modeling, and simulation techniques, making it suitable for real-world financial analytics applications.
