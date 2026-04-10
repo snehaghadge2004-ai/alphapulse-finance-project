@@ -80,7 +80,7 @@ To build an interactive Power BI dashboard for analyzing stock trends and enabli
 
 ---
 
-### Key Insight
+###  Key Insight
 The What-if analysis allows users to simulate market changes (e.g., ±10%) and instantly observe the impact on stock prices, enabling better decision-making and risk understanding.
 ---
 
