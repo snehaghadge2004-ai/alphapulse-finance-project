@@ -84,5 +84,45 @@ To build an interactive Power BI dashboard for analyzing stock trends and enabli
 The What-if analysis allows users to simulate market changes (e.g., ±10%) and instantly observe the impact on stock prices, enabling better decision-making and risk understanding.
 ---
 
-Conclusion
-This project demonstrates end-to-end financial data analysis, risk modeling, and simulation techniques, making it suitable for real-world financial analytics applications.
+##  **Week 4: Finalization**
+
+###  Objective
+To finalize the project by creating an executive summary dashboard and presenting key financial insights using high-level KPIs.
+
+---
+
+###  Tasks Performed
+- Created an **Executive Summary** page in Power BI
+- Added KPI cards for key metrics:
+  - Average Return
+  - Volatility
+  - Maximum Stock Price
+  - Value at Risk (VaR - 5%)
+  - Maximum Drawdown
+- Implemented DAX measures for advanced KPIs:
+  - VaR using percentile calculation
+  - Max Drawdown using minimum return
+- Ensured proper formatting and readability of KPI values
+- Aligned and structured visuals for a clean and professional layout
+- Verified all dashboard interactions (filters, slicers, What-if analysis)
+- Performed manual data refresh to simulate real-world data updates
+
+---
+
+###  Output
+- Final Power BI dashboard with:
+  - Executive Summary page
+  - KPI-based insights for performance and risk analysis
+- Clean, interactive, and presentation-ready dashboard
+
+---
+
+###  Key Insight
+The executive summary provides a quick overview of portfolio performance and risk using KPIs like returns, volatility, Value at Risk, and drawdown, enabling better decision-making.
+
+---
+
+###  Conclusion
+The project was successfully completed with end-to-end implementation, including data processing, financial analysis, interactive visualization, and executive-level reporting.
+
+
